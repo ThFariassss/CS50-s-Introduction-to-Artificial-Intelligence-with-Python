@@ -1,0 +1,32 @@
+O código resolve automaticamente um labirinto lido de um arquivo .txt,encontrando um caminho do ponto A (início) até o ponto B (fim)
+utilizando busca em profundidade (DFS) ou busca em largura (BFS).
+Leitura do Labirinto (Maze)
+    Lê o arquivo .txt contendo o labirinto (feito de caracteres como #, espaços, A, B).
+    Identifica o ponto de partida A, o ponto de chegada B e as paredes (#).
+    Cria uma grade (self.walls) indicando onde há paredes (True) ou caminho livre (False).
+Busca uma solução(solve)
+    Cria uma estrutura de nós (Node) que representam cada posição visitável no labirinto.
+    Usa uma fronteira (pilha ou fila) para explorar os caminhos possíveis:
+    StackFrontier → busca em profundidade (DFS)
+    QueueFrontier → busca em largura (BFS)
+    Marca os estados explorados para não repetir.
+    Ao encontrar o fim (B), reconstrói o caminho percorrido a partir dos "pais" dos nós.
+
+Impressão 
+    Mostra o labirinto no terminal:
+    █ para parede
+    A para início
+    B para objetivo
+    * para o caminho da solução
+
+Esse código é um exercício prático de algoritmos de busca
+Ele ajuda a entender como máquinas podem tomar decisões em espaços de estados.
+
+
+
+
+
+
+
+
+
