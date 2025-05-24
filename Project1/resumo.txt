@@ -1,0 +1,21 @@
+Resumo - Projeto Knights and Knaves (CS50 AI)
+Este projeto consiste na resolução de quatro quebra-cabeças de lógica envolvendo personagens que
+podem ser Cavaleiros (que sempre dizem a verdade) ou Patifes (que sempre mentem).
+Resultado da execução:
+Puzzle 0
+    A is a Knave
+Puzzle 1:
+    A is a Knave
+    B is a Knight
+Puzzle 2:
+    A is a Knave
+    B is a Knight
+Puzzle 3:
+    A is a Knight
+    B is a Knave
+    C is a Knight
+A resolução é feita por meio de um modelo lógico que representa o conhecimento de cada quebra-cabeça
+utilizando inferência para deduzir a identidade dos personagens com base nas regras.
+
+Arquivo principal: Project1/puzzle.py
+Lógica usada: Project1/logic.py

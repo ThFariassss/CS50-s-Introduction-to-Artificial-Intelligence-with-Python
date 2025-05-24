@@ -1,4 +1,4 @@
-from logic import *
+from Logica.logic import *
 
 chuva = Simbolo("chuva")
 hagrid = Simbolo("hagrid")

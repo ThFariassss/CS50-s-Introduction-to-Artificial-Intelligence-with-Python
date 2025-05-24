@@ -1,7 +1,7 @@
 # =========================
 # Lógica do Problema de Cores e Posições
 # =========================
-from logic import *
+from Logica.logic import *
 cores = ["vermelho", "azul", "verde", "amarelo"]
 simbolos = []
 

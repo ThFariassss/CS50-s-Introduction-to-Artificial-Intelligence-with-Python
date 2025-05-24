@@ -1,4 +1,4 @@
-from logic import *
+from Logica.logic import *
 
 # Pessoas e casas
 pessoas = ["Gilderoy", "Pomona", "Minerva", "Horace"]

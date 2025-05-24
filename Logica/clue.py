@@ -1,5 +1,5 @@
 import termcolor
-from logic import *
+from Logica.logic import *
 
 # Símbolos: suspeitos
 mustard = Simbolo("CoronelMostarda")
@@ -7,7 +7,7 @@ plum = Simbolo("ProfessorPlum")
 scarlet = Simbolo("SrtaScarlet")
 personagens = [mustard, plum, scarlet]
 
-# Símbolos: cômodos
+# Símbolos: cômodos 
 salao = Simbolo("SalaoDeBaile")
 cozinha = Simbolo("Cozinha")
 biblioteca = Simbolo("Biblioteca")
