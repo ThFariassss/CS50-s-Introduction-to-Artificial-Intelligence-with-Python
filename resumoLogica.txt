@@ -1,0 +1,36 @@
+Definição das Classes de Sentenças Lógicas:
+
+Simbolo: Representa proposições atômicas.
+Nao, E, Ou, Implicacao, Bicondicional: Operadores lógicos para formar sentenças compostas.
+Cada classe permite avaliar a sentença dado um modelo (atribuição de verdade/falso aos símbolos),
+obter seus símbolos constituintes e representar a fórmula em string.
+
+Função de Verificação de Modelo
+verificar_modelo(base_conhecimento, consulta): Verifica se a base de conhecimento implica a 
+consulta, testando todas as combinações possíveis de valores verdade para os símbolos envolvidos.
+
+
+
+Exemplos de Aplicações do Sistema Lógico:
+a) Problema do Jogo Detetive (Clue):
+Define símbolos para suspeitos, cômodos e armas.
+Representa conhecimento como expressões lógicas indicando que há exatamente um suspeito, 
+um cômodo e uma arma envolvidos.
+Adiciona informações que algumas cartas não estão envolvidas.
+Permite checar quais símbolos são certamente verdadeiros (SIM), falsos, ou incertos (TALVEZ).
+
+b) Problema com Relações entre Eventos:
+Exemplo com símbolos relacionados ao clima e personagens (chuva, hagrid, dumbledore).
+Define regras lógicas e testa se uma consulta (chuva) é implicada pela base de conhecimento.
+
+c) Problema das Cores e Posições:
+Representa quatro cores que podem estar em quatro posições.
+Garante que cada cor ocupa exatamente uma posição e cada posição tem no máximo uma cor.
+Define regras de pares corretos e incorretos.
+Verifica quais cores estão em quais posições baseado no conhecimento.
+
+d) Problema das Pessoas e Casas (Harry Potter):
+Define símbolos que relacionam pessoas a casas.
+Garante que cada pessoa está em exatamente uma casa e que cada casa tem apenas uma pessoa.
+Usa informações adicionais para restringir o problema.
+Determina a casa de cada pessoa com base no conhecimento
